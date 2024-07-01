@@ -20,6 +20,7 @@ As you can see, this is our parent app, where we integrate our aar file into thi
 
 Expected:
 This will navigate to our Flutter module which displays Instance and Username values which we are passing from Android Native App.
+
 Result:
 This navigates to Black screen with the following error.
 
