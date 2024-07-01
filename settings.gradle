@@ -1,0 +1,26 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        mavenCentral()
+
+        // Add the new repositories starting on the next line...
+    maven {
+      url '/Users/vignesh/Downloads/flutter_module_sam/build/host/outputs/repo'
+        // This is relative to the location of the build.gradle file
+        // if using a relative path.
+    }
+    maven {
+        url 'https://storage.googleapis.com/download.flutter.io'
+    }
+    }
+}
+rootProject.name = "AndroidFlutterModule"
+include ':app'
