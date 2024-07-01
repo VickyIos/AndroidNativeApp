@@ -36,4 +36,6 @@ E/flutter: [ERROR:flutter/runtime/dart_vm_initializer.cc(41)] Unhandled Exceptio
 #3 main (package:flutter_module_sam/main.dart:8:3)
 <asynchronous suspension>
 ```
+Error:
+<img width="1099" alt="Screenshot 2024-06-27 at 5 34 09 PM" src="https://github.com/VickyIos/AndroidNativeApp/assets/20942319/7c979b4d-2dca-4559-aeaa-628dc4bb5015">
 
