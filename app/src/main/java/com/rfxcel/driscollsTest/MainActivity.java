@@ -34,12 +34,12 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 Map<String, Object> map = new HashMap<String, Object>();
-                map.put("instance","Scandit-RFXCEL");
-                map.put("user","70ee018f");
-                map.put("doLogout",false);
+                map.put("instance","scandit");
+                map.put("user","70eec18f");
+                map.put("logout",false);
                 JSONObject obj=new JSONObject(map);
 
-                methodChannel.invokeMethod("scandit_rfxcel", obj.toString(), new MethodChannel.Result() {
+                methodChannel.invokeMethod("instance_rfxcel", obj.toString(), new MethodChannel.Result() {
                     @Override
                     public void success(@Nullable Object result) {
                         Log.d("Gateway_json ANDROID: ","ANDROID Success : "+obj.toString());
